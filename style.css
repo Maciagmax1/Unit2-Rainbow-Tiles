@@ -1,0 +1,54 @@
+/* resets */
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 50%;
+  height: 33.33%;
+  border: 1px solid black;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: orange;
+}
+
+.three {
+  background-color: yellow;
+}
+
+.four {
+  background-color: green;
+}
+
+.five {
+  background-color: blue;
+}
+
+.six {
+  background-color: indigo;
+}
+
+@media only screen and (min-width: 600px) {
+  li {
+    height: 50%;
+    width: 33.33%;
+  }
+}
